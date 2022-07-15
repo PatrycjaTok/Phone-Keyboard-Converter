@@ -1,0 +1,91 @@
+@media screen and (max-width:640px){   
+    body{
+        font-size: 18px;
+    }  
+    #container{
+        min-width: 350px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:1024px){
+    body{
+        font-size: 20px;
+    }
+    #container{
+        min-width: 450px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+body{
+    font-size: 20px;
+    }
+    #container{
+        min-width: 500px;
+    }
+    
+}
+
+
+#content1Div{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: rgb(247, 241, 252);
+    border-radius: 20px;
+    padding: 50px 5px 20px 5px;
+    min-height: 100px;
+
+}
+
+.buttons{
+    border-radius: 5px;
+    background-color: rgb(207, 167, 253);
+    font-weight: bolder;
+    cursor: pointer;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.3s;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.buttons:hover{
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.685);
+}
+
+.buttons:active{
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.973);
+    background-color: rgb(137, 65, 219);
+}
+
+p{
+    font-weight: bolder;
+}
+
+.inputs{
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+#divAnswer{
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+#divMessage{
+    margin-top: 20vh;
+    color: rgb(137, 65, 219);
+}
