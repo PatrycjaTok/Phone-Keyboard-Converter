@@ -10,3 +10,11 @@
   b) in Live Server Address paste copied URL from point 7
 9. Open new window in Your browser and write:   localhost/PhoneKeyboardConverter   ->and click enter
 10. Here You are :)
+
+
+Description:
+It works like a keyboards of the old cell phones -> To write a text with them, you had to press a given numeric key the appropriate number of times, for example, "ULA" was written as 885552. You have to separate letters with a comma.
+
+Example:
+Ela nie ma kota   ->returns->   33,555,2,0,66,444,33,0,6,2,0,55,666,8,2
+5,2,22,555,33,222,9999,66,444,55    ->returns->   jablecznik
