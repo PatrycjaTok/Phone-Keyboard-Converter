@@ -136,7 +136,7 @@ if((isset($_POST['inputText'])) && ($_POST['inputText']!=null)){
             <div id='divMessage'>
                 Zapraszam również do mojej aplikacji webowej <br>
                 <b>http://kranmar.pl/</b> <br>
-                Pozdrawiam, Patrycja
+                Pozdrawiam, Patrcja
             </div>
 
         </div>
